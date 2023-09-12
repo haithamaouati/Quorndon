@@ -8,7 +8,7 @@ GitHub User Info
 
 ![image](https://raw.githubusercontent.com/haithamaouati/Quorndon/main/Quorndon.png)
 
-> Artwork by **Kaouter**
+> Artwork by artist **Kaouter**
 
 ## Demo
 [Quorndon](https://haithamaouati.github.io/Quorndon/)
