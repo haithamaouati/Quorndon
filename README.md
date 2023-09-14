@@ -9,11 +9,17 @@ GitHub User Info
 ![image](https://raw.githubusercontent.com/haithamaouati/Quorndon/main/Quorndon.png)
 *Artwork by artist **Kaouter***
 
-## Demo
+## Table of Contents
+
+- [Demo](#demo)
+- [Author](#author)
+- [License](#license)
+
+### Demo
 [Quorndon](https://haithamaouati.github.io/Quorndon/)
 
-## Author
+### Author
 Made with :coffee: by **Haitham Aouati**
 
-## License
+### License
 This script is provided under the [MIT License](LICENSE)
