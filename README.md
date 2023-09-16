@@ -16,7 +16,8 @@ GitHub User Info
 - [License](#license)
 
 ### Demo
-[Quorndon](https://haithamaouati.github.io/Quorndon/)
+[View Demo](https://haithamaouati.github.io/Quorndon/)
+• Hosted by GitHub pages
 
 ### Author
 Made with :coffee: by **Haitham Aouati**
