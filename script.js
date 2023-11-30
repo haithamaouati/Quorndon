@@ -9,19 +9,19 @@ fetchButton.addEventListener("click", async () => {
   const reposData = await fetch(`https://api.github.com/users/${username}/repos`).then((response) => response.json());
 
   userInfoElement.innerHTML = `
-    <p>Name: ${userData.name}</p>
-    <p>Email: ${userData.email}</p>
-    <p>Bio: ${userData.bio}</p>
-    <p>Location: ${userData.location}</p>
+    <p>Name: <b>${userData.name}</b></p>
+    <p>Email: <b>${userData.email}</b></p>
+    <p>Bio: <b>${userData.bio}</b></p>
+    <p>Location: <b>${userData.location}</b></p>
     <img src="${userData.avatar_url}" alt="Avatar" width="200" height="200">
-    <p>Company: ${userData.company}</p>
-    <p>Blog: <a href="${userData.blog}">${userData.blog}</a></p>
-    <p>Twitter: <a href="https://twitter.com/${userData.twitter_username}">${userData.twitter_username}</a></p>
-    <p>Created at: ${userData.created_at}</p>
-    <p>Updated at: ${userData.updated_at}</p>
-    <p>Number of public repositories: ${userData.public_repos}</p>
-    <p>Number of followers: ${userData.followers}</p>
-    <p>Number of following: ${userData.following}</p>
+    <p>Company: <b>${userData.company}</b></p>
+    <p>Blog: <b><a href="${userData.blog}">${userData.blog}</a></b></p>
+    <p>Twitter: <b><a href="https://twitter.com/${userData.twitter_username}">${userData.twitter_username}</a></b></p>
+    <p>Created at: <b>${userData.created_at}</b></p>
+    <p>Updated at: <b>${userData.updated_at}</b></p>
+    <p>Number of public repositories: <b>${userData.public_repos}</b></p>
+    <p>Number of followers: <b>${userData.followers}</b></p>
+    <p>Number of following: <b>${userData.following}</b></p>
     <p>Public repositories:</p>
     <ul>
       ${reposData.map((repo) => `<li><a href="${repo.html_url}">${repo.name}</a></li>`).join("")}
